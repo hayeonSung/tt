@@ -49,7 +49,7 @@ scope이 다름
 <br>
 <br>
 <p>
-핵사고날 아키텍처에 대한 간단 설명:<br>
+핵사고날 아키텍처에 대한 간단 설명:<br><br>
 포트와 어답터라는 계층이 있다고 했을 때, 외부로만 향하는 & 내부로만 향하는 포트/어답터가 존재하고<br><br>
 
 각 usecase에 국한되어 개발됨. (외부시스템과 내부시스템의 분리)<br><br>
@@ -59,6 +59,7 @@ scope이 다름
 포트는 인터페이스이며, 어답터는 인터페이스에 대한 구현체임. <br><br>
 
 다만 usecase별로 정의를 해야하기 때문에 data flow가 엄격해서 고민을 하게 만들고, 단순 코드량(LOC)는 많아서 귀찮기는 함<br><br>
+대신, 그렇기 떄문에 높은 응집도/낮은 결합도를 가져갈 수 있고,<br> 문제가 발생시 책임 소재에 대한 파악, 유지보수가 수월해짐</p>
 
   <br>
 <img width="800" alt="Screen Shot 2023-08-09 at 2 48 37 PM" src="https://github.com/S-hayeon/archive/assets/25574165/30bf6c27-dae3-433a-8d26-cd5ebffc34f5">
@@ -67,7 +68,6 @@ scope이 다름
 </p>
 <br>
 <p>
-대신, 그렇기 떄문에 높은 응집도/낮은 결합도를 가져갈 수 있고,<br> 문제가 발생시 책임 소재에 대한 파악, 유지보수가 수월해짐</p>
 
 
 [프론트 참고 레포](https://github.com/juanm4/hexagonal-architecture-frontend)<br>
