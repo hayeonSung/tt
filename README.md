@@ -34,6 +34,9 @@ scope이 다름
 
 **다중관계 / 혹은 n개의 객체를 관리할 떄 나오는게 옵저버 패턴** 
 - ex) 생성된 n개의 이벤트를 처리하기 위해서 사용될 수 있음
+<br>
+etc..
+<br>
 
 ---
 <p>
@@ -62,6 +65,8 @@ scope이 다름
 대신, 그렇기 떄문에 높은 응집도/낮은 결합도를 가져갈 수 있고,<br> 문제가 발생시 책임 소재에 대한 파악, 유지보수가 수월해짐</p>
 
   <br>
+    <br>
+    보편적인 방법대로 개발했을 때, 서비스의 규모가 광대해지고 <br>이것 저것 다 엉켜서 개발되어야 하는 요구사항(비지니스로직)이 생기면 <br> 높은 결합도로 인해 문제 발생시 해결하는데 어려움을 겪기 쉬움<br><br>
 <img width="800" alt="Screen Shot 2023-08-09 at 2 48 37 PM" src="https://github.com/S-hayeon/archive/assets/25574165/30bf6c27-dae3-433a-8d26-cd5ebffc34f5">
 <img width="1253" alt="Screen Shot 2023-08-09 at 3 11 59 PM" src="https://github.com/S-hayeon/archive/assets/25574165/70c20d0f-1ef5-4347-ab80-45737ff4c313">
 
